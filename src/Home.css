@@ -1,0 +1,334 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.panel-1 {
+    background-image: linear-gradient(to bottom right, #ff1616, #004aad);
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+}
+
+/* Full height container */
+.section-container {
+    display: flex;
+    justify-content: center;  /* Horizontally center the text */
+    align-items: center;      /* Vertically center the text */
+    height: 100vh;            /* Full viewport height */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Text container */
+.text-container {
+    text-align: center;       /* Center text horizontally within the container */
+    color: white;             /* White text for contrast */
+    max-width: 600px;         /* Optional: limit the max width of the text */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Section header */
+.section-header {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+/* Section description */
+.section-description {
+    font-size: 1.25rem;
+    margin-bottom: 25px;
+}
+
+/* Section button */
+.section-button {
+    background-color: black;
+    padding: 12px 25px;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 25px;
+    white-space: nowrap;
+    margin-right: 2rem;
+}
+
+.section-button:hover {
+    background-color: #004AAD;
+}
+
+/* Panel 2 container */
+.panel-2 {
+    padding: 40px;
+    background-color: #fff;
+    color: black;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+}
+
+.panel-2-container {
+    display: flex;
+    gap: 20px;
+}
+
+/* Left Column */
+.panel-2-left {
+    flex: 1;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.panel-2-left h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.panel-2-left p {
+    margin-bottom: 15px;
+}
+
+/* Right Column */
+.panel-2-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Space between rows */
+}
+
+/* Each row */
+.row {
+    display: flex;
+    gap: 10px; /* Space between image and text */
+    align-items: center;
+}
+
+/* Image in row */
+.row-image img {
+    width: 100px; /* Fixed image size */
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px; /* Rounded corners */
+}
+
+/* Text in row */
+.row-text {
+    flex: 1;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+/* Panel 3 Styles */
+.panel-3 {
+    padding: 40px;
+    background-color: #f3eaf4;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+}
+
+.panel-3-container {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+/* Left Section */
+.panel-3-left {
+    flex: 1;
+}
+
+.panel-3-left h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.panel-3-left p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Middle Buttons Section */
+.panel-3-middle {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.button-row {
+    display: flex;
+    gap: 10px;
+}
+
+.feature-button {
+    flex: 1;
+    padding: 10px 15px;
+    background-color: #004AAD;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.feature-button:hover {
+    background-color: #45a049;
+}
+
+.panel-3-carousel {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.carousel-content {
+    position: relative;
+    width: 80%;
+    height: 80vh;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-panel {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    display: none;
+}
+
+.carousel-panel.active {
+    display: block;
+}
+
+.carousel-panel img {
+    width: 40%; /* Adjust image size to be smaller */
+    max-width: 150px; /* Set a max width to ensure the images are small */
+    height: auto;
+    margin-top: 20px;
+}
+
+.carousel-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.carousel-button {
+    padding: 10px 20px;
+    background-color: #004AAD;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.carousel-button:hover {
+    background-color: #0056b3;
+}
+.panel-4 {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    color: #333;
+}
+
+.panel-4-container {
+    display: flex;
+    width: 100%;
+}
+
+/* Panel 4 Styles */
+.panel-5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    color: #333;
+    padding: 2rem;
+    margin: 2rem;
+    width: 100%;
+}
+
+.panel-5-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.panel-5-column {
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+}
+
+.panel-5-row {
+    margin: 10px 0;
+}
+
+.panel-5-row a{
+    color: #4D4D4D;
+}
+
+/*.input-box {
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}*/
+
+.panel-5-button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.panel-5-button:hover {
+    background-color: #45a049;
+}
+
+/* Footer Styles */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.footer-social a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.footer-social a:hover {
+    text-decoration: underline;
+}
+
+.divider {
+    width: 100%;
+    height: 4px; /* Thickness of the bar */
+    background-color: #333; /* Light gray color for the bar */
+    margin: 2rem 0; /* Space around the bar */
+}
+
